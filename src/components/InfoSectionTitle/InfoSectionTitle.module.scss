@@ -1,0 +1,82 @@
+.infoSection{
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    
+    .infoSectionTitle{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        h2{
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+    
+        h3{
+            margin-bottom: 0px;
+            margin-top: 0px;
+            color: rgb(51, 188, 51);
+        }
+        .interestSpan{
+            color: rgb(51, 188, 51);
+            margin-bottom: 0px;
+            margin-top: 0px;
+            font-size: 10px;
+            text-align: center;
+        }
+
+        .interestAmount{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+
+    .title{
+        color: rgb(245, 245, 245);
+        font-size: 1.5rem;
+        text-decoration: none;
+
+        &:hover{
+            color: rgb(255, 152, 0);
+            text-decoration: none;
+        }
+    }
+
+    .interest{
+        color: rgb(245, 245, 245);
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+
+    .status{
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        text-transform: capitalize;
+    }
+
+    .infoTitle{
+        color: rgb(158, 158, 158);
+    }
+
+    .infoResult{
+        color: rgb(245, 245, 245);
+
+        &:hover{
+            color: rgb(255, 152, 0);
+            text-decoration: none;
+        }
+    }
+
+}
+
+span{
+    color: #5d78ff;
+    font-size: 14px;
+    font-weight: 700;
+}

@@ -1,0 +1,38 @@
+.inputForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+    input{
+        width: 300px;
+        border: #5d78ff solid;
+        border-radius: 0.5rem;
+        padding: 5px;
+        margin: 5px;
+    }
+    .inputBtn{
+        width: 80px;
+        color: #fff;
+        background-color: #5d78ff;
+        border-color: #5d78ff;
+    }
+}
+
+.tables {
+    text-align: center;
+    border: #5d78ff solid 1px;
+    border-radius: 5px;
+
+    .trName {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    td {
+
+        text-align: center;
+        border: #5d78ff solid 1px;
+    }
+}
